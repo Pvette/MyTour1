@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">MyTour</string>
+
+    !-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_disneyland">Disneyland</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_magic_mountain">Magic Mountain</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_universal_studio">Universal Studio</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_knotts_berry_farm">Knotts Berry Farm</string>
+
+    //Disneyland Attractions
+    <string name="space_mountain">Space Mountain</string>
+    <string name="space_mountain_desc">Blast off on a speeding rocket through the darkest reaches of outer space.</string>
+
+    <string name="matterhorn">Matterhorn</string>
+    <string name="matterhorn_desc">Careen through a snow-capped mountain on a speeding alpine sled while avoiding the clutches of the mythic Abominable Snowman.</string>
+
+    <string name="big_thunder">Big Thunder</string>
+    <string name="big_thunder_desc">Dash in and out of craggy caverns and rumble through an old mine aboard a speeding train.</string>
+
+    <string name="splash_mountain">Splash Mountain</string>
+    <string name="splash_mountain_desc">Embark on a rollicking log flume ride featuring characters and songs from the classic Disney film Song of the South.</string>
+
+    <!-- Disneyland 2-->
+
+    <string name="ride1">Space Mountain</string>
+    <string name="desc_info1">Blast off on a speeding rocket through the darkest reaches of outer space.</string>
+
+    <string name="ride2">Matterhorn</string>
+    <string name="desc_info2">Careen through a snow-capped mountain on a speeding alpine sled while avoiding the clutches of the mythic Abominable Snowman</string>
+
+    <string name="ride3">Big Thunder</string>
+    <string name="desc_info3">Dash in and out of craggy caverns and rumble through an old mine aboard a speeding train.</string>
+
+    <string name="ride4">Splash Mountain</string>
+    <string name="desc_info4">Embark on a rollicking log flume ride featuring characters and songs from the classic Disney film Song of the South.</string>
+
+    //Knotts Attractions
+
+    <string name="sierra_sidewinder">Sierra Sidewinder</string>
+    <string name="sierra_sidewinder_desc">Sierra Sidewinder combines speed with spin.</string>
+
+    <string name="silver_bullet">Silver Bullet</string>
+    <string name="silver_bullet_desc">Riders will spiral, corkscrew, fly into a cobra roll, and experience overbanked curves.</string>
+
+    <string name="boomerang">Boomerang</string>
+    <string name="boomerang_desc">Inverts thrill-seekers six times, three times while traveling forward and three times while going backwards,.</string>
+
+    <string name="xcelerator">Xcelerator</string>
+    <string name="xcelerator_desc">Rocket 0-82 mph in 2.3 seconds hundreds of feet into the air before immediately hurtling 90 degrees straight down.</string>
+
+
+    //Magic Mountain Attractions
+    <string name="batman">Batman</string>
+    <string name="batman_desc">The masked superhero takes you on ride of loops and twists!</string>
+    <string name="goliath">Goliath</string>
+    <string name="goliath_desc">This hypercoaster includes high-speeds and a 255-ft drop.</string>
+    <string name="green_lantern">Green Lantern</string>
+    <string name="green_latern_desc">Steel stand-up roller coaster .</string>
+    <string name="tatsu">Tatsu</string>
+    <string name="tatsu_desc">Ride this metal dragon face-down during a set of drops, corkscrews, and zero G rolls.</string>
+
+    //Universal Studio Attractions
+
+    <string name="harry_potter">Harry Potter</string>
+    <string name="harry_potter_desc">Get ready to soar above the castle grounds as you join Harry Potter</string>
+    <string name="the_mummy">The Mummy</string>
+    <string name="the_mummy_desc">The ride catapults guests at speeds up to 45 mph in virtual darkness.</string>
+    <string name="jurassic_park">Jurassic Park</string>
+    <string name="jurassic_park_desc">Meet Blue the Velociraptor and the friendly new Triceratops.</string>
+    <string name="king_kong">King Kong</string>
+    <string name="king_kong_desc">Your survival instincts will be on overload.</string>
+</resources>
