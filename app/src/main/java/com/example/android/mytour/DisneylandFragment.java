@@ -23,17 +23,12 @@ public class DisneylandFragment extends Fragment {
         // Required empty public constructor
     }
 
-  //  @Override
- //   public void onCreate(Bundle savedInstanceState) {
- //       super.onCreate(savedInstanceState);
- //   }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        //Inflate the layout for this fragment
-       // return inflater.inflate(R.layout.activity_disneyland, container, false);
+
 
         View rootView = inflater.inflate(R.layout.activity_disneyland, container, false);
 
@@ -61,7 +56,6 @@ public class DisneylandFragment extends Fragment {
 
 
             public void onItemClick(AdapterView<?> parent, View view, int position, long id){
-         //       Ride ride = rides.get(position);
 
             }
         });
@@ -70,11 +64,4 @@ public class DisneylandFragment extends Fragment {
 
     }
 
- //   @Override
-
- //   public void onStop() {
-
- //       super.onStop();
-
-//    }
-}
+ }

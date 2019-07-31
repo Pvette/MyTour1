@@ -26,9 +26,7 @@ public class KnottsBerryFarmFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        //TextView textView = new TextView(getActivity());
-       // textView.setText(R.string.hello_blank_fragment);
-       // return textView;
+
 
         View rootView = inflater.inflate(R.layout.activity_knotts_berry_farm, container, false);
 
@@ -57,8 +55,7 @@ public class KnottsBerryFarmFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id){
                 Ride ride = rides.get(position);
 
-                // Inflate the layout for this fragment
-                //return inflater.inflate(R.layout.fragment_disneyland, container, false);
+
             }
         });
 
@@ -66,18 +63,7 @@ public class KnottsBerryFarmFragment extends Fragment {
 
     }
 
-//    @Override
 
- //   public void onStop() {
-
- //       super.onStop();
-
-
-        // When the activity is stopped, release the media player resources because we won't
-
-        // be playing any more sounds.
-
- //   }
 }
 
 

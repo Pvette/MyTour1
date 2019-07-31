@@ -18,10 +18,7 @@ public class UniversalStudioFragment extends Fragment {
     public UniversalStudioFragment() {
         // Required empty public constructor
     }
-  //  @Override
-  //  public void onCreate(Bundle savedInstanceState) {
-  //      super.onCreate(savedInstanceState);
-  //  }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -58,22 +55,10 @@ public class UniversalStudioFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id){
                 Ride ride = rides.get(position);
 
-
-                // Inflate the layout for this fragment
-                //return inflater.inflate(R.layout.fragment_disneyland, container, false);
             }
         });
 
         return rootView;
     }
-  //  @Override
 
- //   public void onStop() {
- //       super.onStop();
-
-        // When the activity is stopped, release the media player resources because we won't
-
-        // be playing any more sounds.
-
-  //  }
 }
