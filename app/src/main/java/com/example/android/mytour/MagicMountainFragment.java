@@ -51,7 +51,7 @@ public class MagicMountainFragment extends Fragment {
             @Override
             //   public void onItemClick(AdapterView<?> adapterView, View view, int position long l) {
 
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id){
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Ride ride = rides.get(position);
 
 
@@ -63,25 +63,20 @@ public class MagicMountainFragment extends Fragment {
         return rootView;
 
     }
+}
+   // @Override
 
-    @Override
+   // public void onStop() {
 
-    public void onStop() {
-
-        super.onStop();
+  //      super.onStop();
 
 
         // When the activity is stopped, release the media player resources because we won't
 
         // be playing any more sounds.
 
-    }
-}
-
-
-
-
-
+  //  }
+//}
 
 
     //@Override

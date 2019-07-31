@@ -18,10 +18,10 @@ public class UniversalStudioFragment extends Fragment {
     public UniversalStudioFragment() {
         // Required empty public constructor
     }
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-    }
+  //  @Override
+  //  public void onCreate(Bundle savedInstanceState) {
+  //      super.onCreate(savedInstanceState);
+  //  }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -65,19 +65,15 @@ public class UniversalStudioFragment extends Fragment {
         });
 
         return rootView;
-
     }
+  //  @Override
 
-    @Override
-
-    public void onStop() {
-
-        super.onStop();
-
+ //   public void onStop() {
+ //       super.onStop();
 
         // When the activity is stopped, release the media player resources because we won't
 
         // be playing any more sounds.
 
-    }
+  //  }
 }

@@ -39,7 +39,7 @@ public class RideAdapter extends ArrayAdapter<Ride> {
 
         // Find the TextView in the list_item.xml layout with the ID version_name
         TextView rideTextView = (TextView) listItemView.findViewById(R.id.ride_text_view);
-        // Get the version name from the current AndroidFlavor object and
+
         // set this text on the name TextView
         rideTextView.setText(currentRide.getRide());
 

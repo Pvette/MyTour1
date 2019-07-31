@@ -23,10 +23,10 @@ public class DisneylandFragment extends Fragment {
         // Required empty public constructor
     }
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-    }
+  //  @Override
+ //   public void onCreate(Bundle savedInstanceState) {
+ //       super.onCreate(savedInstanceState);
+ //   }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -38,7 +38,7 @@ public class DisneylandFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.activity_disneyland, container, false);
 
         final ArrayList<Ride> rides = new ArrayList<Ride>();
-        //words.add("one");
+
 
         rides.add(new Ride("Big Thunder", "Dash in and out of craggy caverns and rumble through an old mine.",
                 R.drawable.disney_big_thunder));
@@ -49,23 +49,20 @@ public class DisneylandFragment extends Fragment {
         rides.add(new Ride("Travel Ling Go", "Embark on a rollicking log flume ride",
                 R.drawable.disney_travelinggo));
 
-        RideAdapter adapter = new RideAdapter(getActivity(), rides, R.color.category_disneyland);
+
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
+
+        RideAdapter adapter = new RideAdapter(getActivity(), rides, R.color.category_disneyland);
 
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
-            @Override
-         //   public void onItemClick(AdapterView<?> adapterView, View view, int position long l) {
 
             public void onItemClick(AdapterView<?> parent, View view, int position, long id){
-                Ride ride = rides.get(position);
+         //       Ride ride = rides.get(position);
 
-
-                // Inflate the layout for this fragment
-                //return inflater.inflate(R.layout.fragment_disneyland, container, false);
             }
         });
 
@@ -73,16 +70,11 @@ public class DisneylandFragment extends Fragment {
 
     }
 
-    @Override
+ //   @Override
 
-    public void onStop() {
+ //   public void onStop() {
 
-        super.onStop();
+ //       super.onStop();
 
-
-        // When the activity is stopped, release the media player resources because we won't
-
-        // be playing any more sounds.
-
-    }
+//    }
 }

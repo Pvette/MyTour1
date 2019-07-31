@@ -44,20 +44,18 @@ public class KnottsBerryFarmFragment extends Fragment {
         rides.add(new Ride("Silverbullet", "Embark on a rollicking log flume ride",
                 R.drawable.knotts_berry__silverbullet));
 
-        RideAdapter adapter = new RideAdapter(getActivity(), rides, R.color.category_knotts_berry_farm);
-
         ListView listView = (ListView) rootView.findViewById(R.id.list);
+
+        RideAdapter adapter = new RideAdapter(getActivity(), rides, R.color.category_knotts_berry_farm);
 
         listView.setAdapter(adapter);
 
+
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
-            @Override
-            //   public void onItemClick(AdapterView<?> adapterView, View view, int position long l) {
 
             public void onItemClick(AdapterView<?> parent, View view, int position, long id){
                 Ride ride = rides.get(position);
-
 
                 // Inflate the layout for this fragment
                 //return inflater.inflate(R.layout.fragment_disneyland, container, false);
@@ -68,18 +66,18 @@ public class KnottsBerryFarmFragment extends Fragment {
 
     }
 
-    @Override
+//    @Override
 
-    public void onStop() {
+ //   public void onStop() {
 
-        super.onStop();
+ //       super.onStop();
 
 
         // When the activity is stopped, release the media player resources because we won't
 
         // be playing any more sounds.
 
-    }
+ //   }
 }
 
 
